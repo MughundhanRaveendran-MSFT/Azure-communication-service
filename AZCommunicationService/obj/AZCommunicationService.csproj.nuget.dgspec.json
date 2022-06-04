@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\muraveen\\source\\repos\\AZCommunicationService\\AZCommunicationService\\AZCommunicationService.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\muraveen\\source\\repos\\AZCommunicationService\\AZCommunicationService\\AZCommunicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\muraveen\\source\\repos\\AZCommunicationService\\AZCommunicationService\\AZCommunicationService.csproj",
+        "projectName": "AZCommunicationService",
+        "projectPath": "C:\\Users\\muraveen\\source\\repos\\AZCommunicationService\\AZCommunicationService\\AZCommunicationService.csproj",
+        "packagesPath": "C:\\Users\\muraveen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\muraveen\\source\\repos\\AZCommunicationService\\AZCommunicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\muraveen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Azure.Communication.Calling": {
+              "target": "Package",
+              "version": "[1.0.0-beta.29, )"
+            },
+            "Azure.Communication.Identity": {
+              "target": "Package",
+              "version": "[1.1.0-beta.1, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.12, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

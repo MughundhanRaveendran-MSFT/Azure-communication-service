@@ -1,0 +1,1 @@
+C:\Users\muraveen\source\repos\AZCommunicationService\AZCommunicationService\AZCommunicationService.csproj;x86
